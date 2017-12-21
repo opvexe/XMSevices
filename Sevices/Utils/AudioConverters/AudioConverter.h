@@ -10,6 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
+/**
+ * 将音频格式 wav 转换成 amr相互转换类
+ **/
 @interface AudioConverter : NSObject
 
 /**
