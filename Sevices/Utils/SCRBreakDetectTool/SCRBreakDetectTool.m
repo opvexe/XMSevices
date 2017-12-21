@@ -92,22 +92,6 @@ const char* jailbreak_tool_pathes[] = {
 
 
 /**
- * 读取系统所有应用的名称.
- * 这个是利用不越狱的机器没有这个权限来判定的。
- */
-#define USER_APP_PATH                 @"/User/Applications/"
-+ (BOOL)detectJailBreakByAppPathExisted {
-    if ([[NSFileManager defaultManager] fileExistsAtPath:USER_APP_PATH]) {
-        NSLog(@"The device is jail broken!");
-        NSArray *applist = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:USER_APP_PATH error:nil];
-        NSLog(@"applist = %@", applist);
-        return YES;
-    }
-    NSLog(@"The device is NOT jail broken!");
-    return NO;
-}
-
-/**
  * 这个DYLD_INSERT_LIBRARIES环境变量，在非越狱的机器上应该是空，越狱的机器上基本都会有Library/MobileSubstrate/MobileSubstrate.dylib.
  */
 char* printEnv(void) {

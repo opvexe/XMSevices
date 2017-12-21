@@ -22,6 +22,16 @@
 		D0D805031FEB883B00435031 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D804F81FEB883B00435031 /* libopencore-amrwb.a */; };
 		D0D805071FEB889F00435031 /* ZTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D805061FEB889F00435031 /* ZTextField.m */; };
 		D0D8050B1FEB88FD00435031 /* SCRBreakDetectTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D8050A1FEB88FD00435031 /* SCRBreakDetectTool.m */; };
+		D0D8050F1FEB8B6500435031 /* UserUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D8050E1FEB8B6500435031 /* UserUtil.m */; };
+		D0D805121FEB8B9000435031 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D805111FEB8B9000435031 /* User.m */; };
+		D0D805161FEB8C8200435031 /* AlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D805151FEB8C8200435031 /* AlertUtil.m */; };
+		D0D8051A1FEB8D2D00435031 /* AttriHeightUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D805191FEB8D2D00435031 /* AttriHeightUtil.m */; };
+		D0D8051E1FEB8DBD00435031 /* ImagePickerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D8051D1FEB8DBD00435031 /* ImagePickerUtil.m */; };
+		D0D805231FEB8EE200435031 /* VideoPickerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D805221FEB8EE200435031 /* VideoPickerUtil.m */; };
+		D0D805271FEB904C00435031 /* XMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D805261FEB904C00435031 /* XMTextView.m */; };
+		D0D8052B1FEB90D500435031 /* CJXBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D8052A1FEB90D500435031 /* CJXBarButtonItem.m */; };
+		D0D805311FEB916300435031 /* ZLActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D8052D1FEB916300435031 /* ZLActionSheetView.m */; };
+		D0D805321FEB916300435031 /* WYActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D8052E1FEB916300435031 /* WYActionSheetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +84,27 @@
 		D0D805061FEB889F00435031 /* ZTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTextField.m; sourceTree = "<group>"; };
 		D0D805091FEB88FD00435031 /* SCRBreakDetectTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCRBreakDetectTool.h; sourceTree = "<group>"; };
 		D0D8050A1FEB88FD00435031 /* SCRBreakDetectTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCRBreakDetectTool.m; sourceTree = "<group>"; };
+		D0D8050D1FEB8B6500435031 /* UserUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserUtil.h; sourceTree = "<group>"; };
+		D0D8050E1FEB8B6500435031 /* UserUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserUtil.m; sourceTree = "<group>"; };
+		D0D805101FEB8B9000435031 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D0D805111FEB8B9000435031 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		D0D805141FEB8C8200435031 /* AlertUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertUtil.h; sourceTree = "<group>"; };
+		D0D805151FEB8C8200435031 /* AlertUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertUtil.m; sourceTree = "<group>"; };
+		D0D805181FEB8D2D00435031 /* AttriHeightUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttriHeightUtil.h; sourceTree = "<group>"; };
+		D0D805191FEB8D2D00435031 /* AttriHeightUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttriHeightUtil.m; sourceTree = "<group>"; };
+		D0D8051C1FEB8DBD00435031 /* ImagePickerUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePickerUtil.h; sourceTree = "<group>"; };
+		D0D8051D1FEB8DBD00435031 /* ImagePickerUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerUtil.m; sourceTree = "<group>"; };
+		D0D8051F1FEB8DED00435031 /* ImagePickerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePickerDelegate.h; sourceTree = "<group>"; };
+		D0D805211FEB8EE200435031 /* VideoPickerUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPickerUtil.h; sourceTree = "<group>"; };
+		D0D805221FEB8EE200435031 /* VideoPickerUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPickerUtil.m; sourceTree = "<group>"; };
+		D0D805251FEB904C00435031 /* XMTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMTextView.h; sourceTree = "<group>"; };
+		D0D805261FEB904C00435031 /* XMTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTextView.m; sourceTree = "<group>"; };
+		D0D805291FEB90D500435031 /* CJXBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJXBarButtonItem.h; sourceTree = "<group>"; };
+		D0D8052A1FEB90D500435031 /* CJXBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJXBarButtonItem.m; sourceTree = "<group>"; };
+		D0D8052D1FEB916300435031 /* ZLActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLActionSheetView.m; sourceTree = "<group>"; };
+		D0D8052E1FEB916300435031 /* WYActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYActionSheetView.m; sourceTree = "<group>"; };
+		D0D8052F1FEB916300435031 /* WYActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYActionSheetView.h; sourceTree = "<group>"; };
+		D0D805301FEB916300435031 /* ZLActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLActionSheetView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +192,14 @@
 		D0D804ED1FEB880B00435031 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D0D8052C1FEB913D00435031 /* ActionSheetView */,
+				D0D805281FEB90C200435031 /* XMBarButtonItem */,
+				D0D805241FEB902F00435031 /* TextView */,
+				D0D805201FEB8EC500435031 /* VideoPickerUtil */,
+				D0D8051B1FEB8DB400435031 /* ImagePickerUtil */,
+				D0D805171FEB8D0A00435031 /* AttrHeigh */,
+				D0D805131FEB8C5600435031 /* AlertUtil */,
+				D0D8050C1FEB8B5300435031 /* User */,
 				D0D805081FEB88E600435031 /* SCRBreakDetectTool */,
 				D0D805041FEB889F00435031 /* ZTextField */,
 				D0D804EE1FEB883B00435031 /* AudioConverters */,
@@ -235,6 +274,83 @@
 				D0D8050A1FEB88FD00435031 /* SCRBreakDetectTool.m */,
 			);
 			path = SCRBreakDetectTool;
+			sourceTree = "<group>";
+		};
+		D0D8050C1FEB8B5300435031 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D0D805101FEB8B9000435031 /* User.h */,
+				D0D805111FEB8B9000435031 /* User.m */,
+				D0D8050D1FEB8B6500435031 /* UserUtil.h */,
+				D0D8050E1FEB8B6500435031 /* UserUtil.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D0D805131FEB8C5600435031 /* AlertUtil */ = {
+			isa = PBXGroup;
+			children = (
+				D0D805141FEB8C8200435031 /* AlertUtil.h */,
+				D0D805151FEB8C8200435031 /* AlertUtil.m */,
+			);
+			path = AlertUtil;
+			sourceTree = "<group>";
+		};
+		D0D805171FEB8D0A00435031 /* AttrHeigh */ = {
+			isa = PBXGroup;
+			children = (
+				D0D805181FEB8D2D00435031 /* AttriHeightUtil.h */,
+				D0D805191FEB8D2D00435031 /* AttriHeightUtil.m */,
+			);
+			path = AttrHeigh;
+			sourceTree = "<group>";
+		};
+		D0D8051B1FEB8DB400435031 /* ImagePickerUtil */ = {
+			isa = PBXGroup;
+			children = (
+				D0D8051C1FEB8DBD00435031 /* ImagePickerUtil.h */,
+				D0D8051D1FEB8DBD00435031 /* ImagePickerUtil.m */,
+				D0D8051F1FEB8DED00435031 /* ImagePickerDelegate.h */,
+			);
+			path = ImagePickerUtil;
+			sourceTree = "<group>";
+		};
+		D0D805201FEB8EC500435031 /* VideoPickerUtil */ = {
+			isa = PBXGroup;
+			children = (
+				D0D805211FEB8EE200435031 /* VideoPickerUtil.h */,
+				D0D805221FEB8EE200435031 /* VideoPickerUtil.m */,
+			);
+			path = VideoPickerUtil;
+			sourceTree = "<group>";
+		};
+		D0D805241FEB902F00435031 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				D0D805251FEB904C00435031 /* XMTextView.h */,
+				D0D805261FEB904C00435031 /* XMTextView.m */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		D0D805281FEB90C200435031 /* XMBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				D0D805291FEB90D500435031 /* CJXBarButtonItem.h */,
+				D0D8052A1FEB90D500435031 /* CJXBarButtonItem.m */,
+			);
+			path = XMBarButtonItem;
+			sourceTree = "<group>";
+		};
+		D0D8052C1FEB913D00435031 /* ActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				D0D8052F1FEB916300435031 /* WYActionSheetView.h */,
+				D0D8052E1FEB916300435031 /* WYActionSheetView.m */,
+				D0D805301FEB916300435031 /* ZLActionSheetView.h */,
+				D0D8052D1FEB916300435031 /* ZLActionSheetView.m */,
+			);
+			path = ActionSheetView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,14 +486,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D805121FEB8B9000435031 /* User.m in Sources */,
+				D0D805311FEB916300435031 /* ZLActionSheetView.m in Sources */,
 				D0D805001FEB883B00435031 /* wav.mm in Sources */,
+				D0D8052B1FEB90D500435031 /* CJXBarButtonItem.m in Sources */,
+				D0D8051A1FEB8D2D00435031 /* AttriHeightUtil.m in Sources */,
 				D0D805071FEB889F00435031 /* ZTextField.m in Sources */,
 				D0D805011FEB883B00435031 /* AudioConverter.mm in Sources */,
+				D0D8051E1FEB8DBD00435031 /* ImagePickerUtil.m in Sources */,
 				D0D8050B1FEB88FD00435031 /* SCRBreakDetectTool.m in Sources */,
+				D0D805271FEB904C00435031 /* XMTextView.m in Sources */,
+				D0D805321FEB916300435031 /* WYActionSheetView.m in Sources */,
+				D0D805231FEB8EE200435031 /* VideoPickerUtil.m in Sources */,
+				D0D8050F1FEB8B6500435031 /* UserUtil.m in Sources */,
 				D0D804C01FEB872000435031 /* ViewController.m in Sources */,
 				D0D804FF1FEB883B00435031 /* amrFileCodec.mm in Sources */,
 				D0D804CB1FEB872000435031 /* main.m in Sources */,
 				D0D804BD1FEB872000435031 /* AppDelegate.m in Sources */,
+				D0D805161FEB8C8200435031 /* AlertUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
