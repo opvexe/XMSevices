@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00C85551FEC91AF001AA4D3 /* XMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C85511FEC91AF001AA4D3 /* XMButton.m */; };
+		D00C85561FEC91AF001AA4D3 /* XMView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C85541FEC91AF001AA4D3 /* XMView.m */; };
+		D00C855A1FEC9255001AA4D3 /* UIFont+AutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D00C85581FEC9255001AA4D3 /* UIFont+AutoSize.m */; };
 		D0D804BD1FEB872000435031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D804BC1FEB872000435031 /* AppDelegate.m */; };
 		D0D804C01FEB872000435031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D804BF1FEB872000435031 /* ViewController.m */; };
 		D0D804C31FEB872000435031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D804C11FEB872000435031 /* Main.storyboard */; };
@@ -52,6 +55,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D00C85511FEC91AF001AA4D3 /* XMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMButton.m; sourceTree = "<group>"; };
+		D00C85521FEC91AF001AA4D3 /* XMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMButton.h; sourceTree = "<group>"; };
+		D00C85531FEC91AF001AA4D3 /* XMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMView.h; sourceTree = "<group>"; };
+		D00C85541FEC91AF001AA4D3 /* XMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMView.m; sourceTree = "<group>"; };
+		D00C85581FEC9255001AA4D3 /* UIFont+AutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AutoSize.m"; sourceTree = "<group>"; };
+		D00C85591FEC9255001AA4D3 /* UIFont+AutoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+AutoSize.h"; sourceTree = "<group>"; };
 		D0D804B81FEB872000435031 /* Sevices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sevices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D804BB1FEB872000435031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0D804BC1FEB872000435031 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -134,6 +143,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D00C85501FEC918A001AA4D3 /* ButtonUtil */ = {
+			isa = PBXGroup;
+			children = (
+				D00C85521FEC91AF001AA4D3 /* XMButton.h */,
+				D00C85511FEC91AF001AA4D3 /* XMButton.m */,
+				D00C85531FEC91AF001AA4D3 /* XMView.h */,
+				D00C85541FEC91AF001AA4D3 /* XMView.m */,
+			);
+			path = ButtonUtil;
+			sourceTree = "<group>";
+		};
+		D00C85571FEC924A001AA4D3 /* FontAutoSize */ = {
+			isa = PBXGroup;
+			children = (
+				D00C85591FEC9255001AA4D3 /* UIFont+AutoSize.h */,
+				D00C85581FEC9255001AA4D3 /* UIFont+AutoSize.m */,
+			);
+			path = FontAutoSize;
+			sourceTree = "<group>";
+		};
 		D0D804AF1FEB872000435031 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +221,8 @@
 		D0D804ED1FEB880B00435031 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D00C85571FEC924A001AA4D3 /* FontAutoSize */,
+				D00C85501FEC918A001AA4D3 /* ButtonUtil */,
 				D0D8052C1FEB913D00435031 /* ActionSheetView */,
 				D0D805281FEB90C200435031 /* XMBarButtonItem */,
 				D0D805241FEB902F00435031 /* TextView */,
@@ -488,6 +519,7 @@
 			files = (
 				D0D805121FEB8B9000435031 /* User.m in Sources */,
 				D0D805311FEB916300435031 /* ZLActionSheetView.m in Sources */,
+				D00C85551FEC91AF001AA4D3 /* XMButton.m in Sources */,
 				D0D805001FEB883B00435031 /* wav.mm in Sources */,
 				D0D8052B1FEB90D500435031 /* CJXBarButtonItem.m in Sources */,
 				D0D8051A1FEB8D2D00435031 /* AttriHeightUtil.m in Sources */,
@@ -502,8 +534,10 @@
 				D0D804C01FEB872000435031 /* ViewController.m in Sources */,
 				D0D804FF1FEB883B00435031 /* amrFileCodec.mm in Sources */,
 				D0D804CB1FEB872000435031 /* main.m in Sources */,
+				D00C855A1FEC9255001AA4D3 /* UIFont+AutoSize.m in Sources */,
 				D0D804BD1FEB872000435031 /* AppDelegate.m in Sources */,
 				D0D805161FEB8C8200435031 /* AlertUtil.m in Sources */,
+				D00C85561FEC91AF001AA4D3 /* XMView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
